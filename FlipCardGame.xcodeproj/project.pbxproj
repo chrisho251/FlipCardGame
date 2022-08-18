@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C15851C28AE66AA0099ABF5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15851B28AE66AA0099ABF5 /* HomeScreen.swift */; };
 		1C81923128AE4482004DC9C1 /* FlipCardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81923028AE4482004DC9C1 /* FlipCardGameApp.swift */; };
 		1C81923328AE4482004DC9C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81923228AE4482004DC9C1 /* ContentView.swift */; };
 		1C81923528AE4483004DC9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81923428AE4483004DC9C1 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C15851B28AE66AA0099ABF5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		1C81922D28AE4482004DC9C1 /* FlipCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C81923028AE4482004DC9C1 /* FlipCardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardGameApp.swift; sourceTree = "<group>"; };
 		1C81923228AE4482004DC9C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C15851A28AE66760099ABF5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1C15851B28AE66AA0099ABF5 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		1C81922428AE4482004DC9C1 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		1C81922F28AE4482004DC9C1 /* FlipCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				1C15851A28AE66760099ABF5 /* Screens */,
 				1C81925A28AE44E2004DC9C1 /* Flash Screen */,
 				1C81923028AE4482004DC9C1 /* FlipCardGameApp.swift */,
 				1C81923228AE4482004DC9C1 /* ContentView.swift */,
@@ -272,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C81925E28AE559D004DC9C1 /* OnBoardingScreen.swift in Sources */,
+				1C15851C28AE66AA0099ABF5 /* HomeScreen.swift in Sources */,
 				1C81925C28AE4528004DC9C1 /* FlashScreen.swift in Sources */,
 				1C81923328AE4482004DC9C1 /* ContentView.swift in Sources */,
 				1C81923128AE4482004DC9C1 /* FlipCardGameApp.swift in Sources */,
