@@ -14,6 +14,8 @@
 		1C81924228AE4483004DC9C1 /* FlipCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81924128AE4483004DC9C1 /* FlipCardGameTests.swift */; };
 		1C81924C28AE4483004DC9C1 /* FlipCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81924B28AE4483004DC9C1 /* FlipCardGameUITests.swift */; };
 		1C81924E28AE4483004DC9C1 /* FlipCardGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81924D28AE4483004DC9C1 /* FlipCardGameUITestsLaunchTests.swift */; };
+		1C81925C28AE4528004DC9C1 /* FlashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81925B28AE4528004DC9C1 /* FlashScreen.swift */; };
+		1C81925E28AE559D004DC9C1 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81925D28AE559D004DC9C1 /* OnBoardingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1C81924728AE4483004DC9C1 /* FlipCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C81924B28AE4483004DC9C1 /* FlipCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardGameUITests.swift; sourceTree = "<group>"; };
 		1C81924D28AE4483004DC9C1 /* FlipCardGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C81925B28AE4528004DC9C1 /* FlashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashScreen.swift; sourceTree = "<group>"; };
+		1C81925D28AE559D004DC9C1 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		1C81922F28AE4482004DC9C1 /* FlipCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				1C81925A28AE44E2004DC9C1 /* Flash Screen */,
 				1C81923028AE4482004DC9C1 /* FlipCardGameApp.swift */,
 				1C81923228AE4482004DC9C1 /* ContentView.swift */,
 				1C81923428AE4483004DC9C1 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				1C81924D28AE4483004DC9C1 /* FlipCardGameUITestsLaunchTests.swift */,
 			);
 			path = FlipCardGameUITests;
+			sourceTree = "<group>";
+		};
+		1C81925A28AE44E2004DC9C1 /* Flash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1C81925B28AE4528004DC9C1 /* FlashScreen.swift */,
+				1C81925D28AE559D004DC9C1 /* OnBoardingScreen.swift */,
+			);
+			path = "Flash Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C81925E28AE559D004DC9C1 /* OnBoardingScreen.swift in Sources */,
+				1C81925C28AE4528004DC9C1 /* FlashScreen.swift in Sources */,
 				1C81923328AE4482004DC9C1 /* ContentView.swift in Sources */,
 				1C81923128AE4482004DC9C1 /* FlipCardGameApp.swift in Sources */,
 			);
