@@ -17,6 +17,14 @@
 		1C81924E28AE4483004DC9C1 /* FlipCardGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81924D28AE4483004DC9C1 /* FlipCardGameUITestsLaunchTests.swift */; };
 		1C81925C28AE4528004DC9C1 /* FlashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81925B28AE4528004DC9C1 /* FlashScreen.swift */; };
 		1C81925E28AE559D004DC9C1 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81925D28AE559D004DC9C1 /* OnBoardingScreen.swift */; };
+		1CE94A7728B1FA31001BABB2 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE94A7628B1FA31001BABB2 /* Memory.swift */; };
+		1CE94A7A28B1FE8B001BABB2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE94A7928B1FE8B001BABB2 /* CardView.swift */; };
+		1CE94A7C28B2048F001BABB2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE94A7B28B2048F001BABB2 /* GameView.swift */; };
+		1CE94A7E28B21C92001BABB2 /* GIFAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE94A7D28B21C92001BABB2 /* GIFAnimated.swift */; };
+		1CE94A8128B21D64001BABB2 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1CE94A8028B21D64001BABB2 /* FLAnimatedImage */; };
+		1CE94A8328B21F45001BABB2 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE94A8228B21F45001BABB2 /* giphy.gif */; };
+		1CE94A8528B22B9E001BABB2 /* racoon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE94A8428B22B9E001BABB2 /* racoon.gif */; };
+		1CE94A8728B22C68001BABB2 /* capoo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1CE94A8628B22C68001BABB2 /* capoo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +58,13 @@
 		1C81924D28AE4483004DC9C1 /* FlipCardGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1C81925B28AE4528004DC9C1 /* FlashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashScreen.swift; sourceTree = "<group>"; };
 		1C81925D28AE559D004DC9C1 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		1CE94A7628B1FA31001BABB2 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		1CE94A7928B1FE8B001BABB2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1CE94A7B28B2048F001BABB2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1CE94A7D28B21C92001BABB2 /* GIFAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFAnimated.swift; sourceTree = "<group>"; };
+		1CE94A8228B21F45001BABB2 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
+		1CE94A8428B22B9E001BABB2 /* racoon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = racoon.gif; path = ../../../racoon.gif; sourceTree = "<group>"; };
+		1CE94A8628B22C68001BABB2 /* capoo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = capoo.gif; path = ../../../capoo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE94A8128B21D64001BABB2 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +124,11 @@
 		1C81922F28AE4482004DC9C1 /* FlipCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				1CE94A8628B22C68001BABB2 /* capoo.gif */,
+				1CE94A8428B22B9E001BABB2 /* racoon.gif */,
+				1CE94A8228B21F45001BABB2 /* giphy.gif */,
+				1CE94A7828B1FE5E001BABB2 /* View */,
+				1CE94A7528B1FA25001BABB2 /* Model */,
 				1C15851A28AE66760099ABF5 /* Screens */,
 				1C81925A28AE44E2004DC9C1 /* Flash Screen */,
 				1C81923028AE4482004DC9C1 /* FlipCardGameApp.swift */,
@@ -152,6 +173,24 @@
 			path = "Flash Screen";
 			sourceTree = "<group>";
 		};
+		1CE94A7528B1FA25001BABB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CE94A7628B1FA31001BABB2 /* Memory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CE94A7828B1FE5E001BABB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CE94A7928B1FE8B001BABB2 /* CardView.swift */,
+				1CE94A7B28B2048F001BABB2 /* GameView.swift */,
+				1CE94A7D28B21C92001BABB2 /* GIFAnimated.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +207,9 @@
 			dependencies = (
 			);
 			name = FlipCardGame;
+			packageProductDependencies = (
+				1CE94A8028B21D64001BABB2 /* FLAnimatedImage */,
+			);
 			productName = FlipCardGame;
 			productReference = 1C81922D28AE4482004DC9C1 /* FlipCardGame.app */;
 			productType = "com.apple.product-type.application";
@@ -240,6 +282,9 @@
 				Base,
 			);
 			mainGroup = 1C81922428AE4482004DC9C1;
+			packageReferences = (
+				1CE94A7F28B21D64001BABB2 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = 1C81922E28AE4482004DC9C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -256,7 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE94A8528B22B9E001BABB2 /* racoon.gif in Resources */,
 				1C81923828AE4483004DC9C1 /* Preview Assets.xcassets in Resources */,
+				1CE94A8328B21F45001BABB2 /* giphy.gif in Resources */,
+				1CE94A8728B22C68001BABB2 /* capoo.gif in Resources */,
 				1C81923528AE4483004DC9C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,10 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE94A7A28B1FE8B001BABB2 /* CardView.swift in Sources */,
+				1CE94A7728B1FA31001BABB2 /* Memory.swift in Sources */,
 				1C81925E28AE559D004DC9C1 /* OnBoardingScreen.swift in Sources */,
 				1C15851C28AE66AA0099ABF5 /* HomeScreen.swift in Sources */,
 				1C81925C28AE4528004DC9C1 /* FlashScreen.swift in Sources */,
 				1C81923328AE4482004DC9C1 /* ContentView.swift in Sources */,
+				1CE94A7C28B2048F001BABB2 /* GameView.swift in Sources */,
+				1CE94A7E28B21C92001BABB2 /* GIFAnimated.swift in Sources */,
 				1C81923128AE4482004DC9C1 /* FlipCardGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +657,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1CE94A7F28B21D64001BABB2 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CE94A8028B21D64001BABB2 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CE94A7F28B21D64001BABB2 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C81922528AE4482004DC9C1 /* Project object */;
 }

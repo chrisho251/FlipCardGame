@@ -11,7 +11,7 @@ import SwiftUI
 struct FlipCardGameApp: App {
     var body: some Scene {
         WindowGroup {
-            FlashScreen()
+            HomeScreen()
         }
     }
 }
