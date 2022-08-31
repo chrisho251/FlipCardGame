@@ -8,8 +8,7 @@ struct HomeScreen: View {
     
     var body: some View {
         NavigationView {
-//            GIFView(type: .name("giphy"))
-//                .frame( maxWidth: .infinity, maxHeight: .infinity)
+
             
             
             ZStack {
