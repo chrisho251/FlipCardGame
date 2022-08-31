@@ -1,13 +1,11 @@
-//
-//  HomeScreen.swift
-//  FlipCardGame
-//
-//  Created by Hoang, Ho Duy on 18/08/2022.
-//
+
 
 import SwiftUI
 
 struct HomeScreen: View {
+    
+    @State var selection: Int? = nil
+    
     var body: some View {
         NavigationView {
 //            GIFView(type: .name("giphy"))
@@ -23,11 +21,52 @@ struct HomeScreen: View {
                 
                 VStack {
                     Text("Welcome to Memory Game")
-
+                        .offset(y: -100)
+                        .font(.system(size: 20, weight: .heavy, design: .rounded))
+                        .foregroundColor(.black)
+                    NavigationLink(destination: GameView(), tag: 1, selection: $selection) {
+                        Button(action: {
+                            
+                            self.selection = 1
+                        }) {
+                            HStack {
+                                Spacer()
+                                Text("Play Game")
+                                    .font(.system(size: 40, weight: .heavy, design: .rounded))
+                                    .foregroundColor(.white)
+                                    .padding(.vertical, 20)
+                                    .padding(.horizontal, 40)
+                                    .background(Color.red.opacity(0.7))
+                                    .clipShape(RoundedRectangle(cornerRadius: 20))
+                                Spacer()
+                            }
+                        }
+                    }
+                    .offset(y: -50)
                     
+                    NavigationLink(destination: GameView(), tag: 2, selection: $selection) {
+                        Button(action: {
+                            
+                            self.selection = 2
+                        }) {
+                            HStack {
+                                Spacer()
+                                Text("How to Play")
+                                    .font(.system(size: 40, weight: .heavy, design: .rounded))
+                                    .foregroundColor(.white)
+                                    .padding(.vertical, 20)
+                                    .padding(.horizontal, 40)
+                                    .background(Color.purple.opacity(0.7))
+                                    .clipShape(RoundedRectangle(cornerRadius: 20))
+                                Spacer()
+                            }
+                        }
+                    }
+                    .offset(y: -0)
+           
                 }
+                
             }
-//            .frame( maxWidth: .infinity, maxHeight: .infinity)
             .background(GIFView(type: .name("capoo")))
             .ignoresSafeArea()
         }
