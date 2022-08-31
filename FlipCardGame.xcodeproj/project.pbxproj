@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C15851C28AE66AA0099ABF5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15851B28AE66AA0099ABF5 /* HomeScreen.swift */; };
 		1C6B311028BF97B400AC72D3 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B310F28BF97B400AC72D3 /* ModalView.swift */; };
+		1C6B311228BF9DD700AC72D3 /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B311128BF9DD700AC72D3 /* RuleView.swift */; };
 		1C81923128AE4482004DC9C1 /* FlipCardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81923028AE4482004DC9C1 /* FlipCardGameApp.swift */; };
 		1C81923328AE4482004DC9C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81923228AE4482004DC9C1 /* ContentView.swift */; };
 		1C81923528AE4483004DC9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81923428AE4483004DC9C1 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		1C15851B28AE66AA0099ABF5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		1C6B310F28BF97B400AC72D3 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		1C6B311128BF9DD700AC72D3 /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
 		1C81922D28AE4482004DC9C1 /* FlipCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C81923028AE4482004DC9C1 /* FlipCardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardGameApp.swift; sourceTree = "<group>"; };
 		1C81923228AE4482004DC9C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				1CE94A7B28B2048F001BABB2 /* GameView.swift */,
 				1CE94A7D28B21C92001BABB2 /* GIFAnimated.swift */,
 				1C6B310F28BF97B400AC72D3 /* ModalView.swift */,
+				1C6B311128BF9DD700AC72D3 /* RuleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				1C81925E28AE559D004DC9C1 /* OnBoardingScreen.swift in Sources */,
 				1C15851C28AE66AA0099ABF5 /* HomeScreen.swift in Sources */,
 				1C6B311028BF97B400AC72D3 /* ModalView.swift in Sources */,
+				1C6B311228BF9DD700AC72D3 /* RuleView.swift in Sources */,
 				1C81925C28AE4528004DC9C1 /* FlashScreen.swift in Sources */,
 				1C81923328AE4482004DC9C1 /* ContentView.swift in Sources */,
 				1CE94A7C28B2048F001BABB2 /* GameView.swift in Sources */,

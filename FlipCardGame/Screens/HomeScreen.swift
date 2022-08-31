@@ -44,7 +44,7 @@ struct HomeScreen: View {
                     }
                     .offset(y: -50)
                     
-                    NavigationLink(destination: GameView(), tag: 2, selection: $selection) {
+                    NavigationLink(destination: RuleView(), tag: 2, selection: $selection) {
                         Button(action: {
                             
                             self.selection = 2
